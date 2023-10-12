@@ -1,0 +1,1990 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rochester&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rochester", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.landingpage {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  z-index: -1;
+}
+
+.content::before {
+  content: "";
+  background: moz-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(239, 1, 124, 0.57) 100%);
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: 1;
+}
+
+.content {
+  color: white;
+}
+.content .bar {
+  width: 100%;
+  height: 70px;
+  justify-content: space-around;
+  display: inline-flex;
+  z-index: 2;
+}
+.content .bar .menu {
+  display: none;
+}
+.content .bar .rightside {
+  display: inline-flex;
+}
+.content .bar .rightside li {
+  list-style-type: none;
+  margin-top: 7px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 20px;
+}
+.content .bar .rightside li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #CB7FB1;
+}
+.content .bar .rightside li a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.content .bar .leftside {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 20px;
+}
+.content ::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+}
+.content .container {
+  flex-direction: column;
+  padding-top: 10px;
+  width: 100%;
+  height: 400px;
+  margin-top: 150px;
+  margin-bottom: 500px;
+  justify-content: center;
+  text-align: center;
+}
+.content .container img {
+  border-radius: 60%;
+  text-align: center;
+  justify-content: center;
+  display: inline-flex;
+  margin-top: -60px;
+  margin-left: -70px;
+  margin-bottom: 500px;
+  width: 160px;
+  height: 160px;
+}
+.content .container h1 {
+  margin-top: -30px;
+  font-family: "Rochester", cursive;
+  font-size: 120px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+.content .container p {
+  margin-top: -30px;
+  letter-spacing: 5px;
+  padding: 5px 15px;
+  margin-left: 500px;
+  text-align: center;
+  width: 250px;
+  height: 15px;
+  font-size: 12px;
+  background-color: white;
+  color: #D291BC;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.content .container .class {
+  border: 15px solid transparent;
+  outline: dashed 5px solid white;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-around;
+  display: inline-flex;
+  margin-left: 20px;
+  background-color: #D291BC;
+  margin-top: 80px;
+  width: 70%;
+  height: 100px;
+  position: relative;
+}
+.content .container .class .dates {
+  font-family: "Open Sans", sans-serif;
+  padding: 30px 70px;
+  margin-right: -30px;
+  width: 700px;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.content .container .class .dates li {
+  padding-right: -150px;
+  width: 100px;
+  font-weight: 200;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+.content .container .class .dates .save {
+  margin-top: -45px;
+  font-weight: 20px;
+  font-size: 30px;
+  padding-right: 80px;
+  margin-left: -160px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Rochester", cursive;
+  background-color: #CB7FB1;
+  width: 120px;
+  height: 100px;
+  padding-top: 28px;
+  margin-right: -50px;
+}
+
+.about {
+  position: relative;
+  margin-top: 180px;
+  width: 100%;
+  height: 100vh;
+  color: #D291BC;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bride_groom {
+  width: 100%;
+  height: 900px;
+}
+.bride_groom .name5 {
+  letter-spacing: 2px;
+  padding-top: 8px;
+  margin-left: 580px;
+  text-align: center;
+  width: 200px;
+  height: 19px;
+  font-size: 12px;
+  font-weight: 900;
+  border: 1px dashed #D291BC;
+}
+.bride_groom h2 {
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Rochester", cursive;
+  font-size: 100px;
+}
+.bride_groom .groom {
+  top: 180px;
+  left: 0;
+  width: 95%;
+  height: 300px;
+  margin-top: 15px;
+  position: absolute;
+}
+.bride_groom .groom .text {
+  margin-left: 200px;
+  text-align: right;
+  width: 45%;
+  height: 410px;
+}
+.bride_groom .groom .text p {
+  font-weight: 500;
+  line-height: 30px;
+  margin-right: -100px;
+  color: #B5B5B5;
+  padding: 20px 100px;
+  font-size: 15x;
+}
+.bride_groom .groom .text h3 {
+  font-weight: 500;
+  font-size: 50px;
+  font-family: "Rochester", cursive;
+}
+.bride_groom .groom .text img {
+  border: 0 solid transparent;
+  height: 100px;
+  width: 120px;
+  left: 490px;
+  bottom: -100px;
+}
+.bride_groom .groom img {
+  border: 15px solid #F0D9E8;
+  height: 400px;
+  width: 350px;
+  margin-left: 200px;
+  float: left;
+}
+.bride_groom .bride {
+  top: 700px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  margin-top: 15px;
+  position: absolute;
+}
+.bride_groom .bride .text1 {
+  padding-top: 10px;
+  margin-right: 200px;
+  float: right;
+  text-align: left;
+  width: 45%;
+  height: 410px;
+}
+.bride_groom .bride .text1 p {
+  font-weight: 500;
+  line-height: 30px;
+  margin-left: -90px;
+  color: #B5B5B5;
+  padding: 20px 100px;
+  font-size: 15px;
+}
+.bride_groom .bride .text1 h3 {
+  font-weight: 500;
+  font-size: 50px;
+  font-family: "Rochester", cursive;
+}
+.bride_groom .bride .text1 img {
+  border: 0 solid transparent;
+  height: 100px;
+  width: 120px;
+  left: 450px;
+  bottom: -100px;
+}
+.bride_groom .bride img {
+  border: 15px solid #F0D9E8;
+  height: 400px;
+  width: 350px;
+  margin-left: 100px;
+  display: flex;
+  float: right;
+}
+
+.story {
+  position: relative;
+  margin-top: 670px;
+  width: 100%;
+  height: 900px;
+  z-index: -1;
+}
+.story .img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  position: absolute;
+  width: 100%;
+  height: 1500px;
+  z-index: 1;
+}
+.story .description {
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+}
+.story .description .name1 {
+  color: #D291BC;
+  margin-top: 85px;
+  letter-spacing: 2px;
+  padding-top: 7px;
+  margin-left: 630px;
+  text-align: center;
+  width: 150px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 900;
+  border: 1px dashed #D291BC;
+}
+.story .description h3 {
+  color: #D291BC;
+  margin-top: 10px;
+  margin-left: 500px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Rochester", cursive;
+  font-size: 80px;
+}
+.story .card1 {
+  padding-top: 10px;
+  padding-right: 50px;
+  padding: 30px 30px;
+  color: white;
+  text-align: right;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 300px;
+  border: 2px dashed white;
+  outline: 10px #D291BC;
+  background-color: #CB7FB1;
+  width: 380px;
+  height: 180px;
+  z-index: -1;
+  flex-direction: column;
+}
+.story .card1 .para1 {
+  font-weight: 800;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.story .card1 p {
+  color: #F2E0EC;
+  font-weight: 400;
+  text-align: right;
+  font-size: 14px;
+}
+.story .card1 h2 {
+  margin-top: -8px;
+  font-family: "Rochester", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.story .card1 img {
+  position: absolute;
+  margin-top: 0.5%;
+  top: 0;
+  left: 460px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.story .card2 {
+  float: right;
+  padding-right: 50px;
+  padding: 30px 30px;
+  color: white;
+  text-align: left;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 550px;
+  border: 2px dashed white;
+  outline: 10px #D291BC;
+  background-color: #CB7FB1;
+  width: 380px;
+  height: 180px;
+  z-index: -1;
+  flex-direction: column;
+}
+.story .card2 .para1 {
+  font-weight: 800;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.story .card2 p {
+  color: #F2E0EC;
+  font-weight: 400;
+  text-align: left;
+  font-size: 14px;
+}
+.story .card2 h2 {
+  margin-top: -8px;
+  font-family: "Rochester", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.story .card2 img {
+  margin-right: 20px;
+  position: absolute;
+  margin-top: -60px;
+  right: 450px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.story .card3 {
+  padding-right: 50px;
+  padding: 30px 30px;
+  color: white;
+  text-align: right;
+  margin-left: 100px;
+  position: absolute;
+  margin-top: 780px;
+  border: 2px dashed white;
+  outline: 10px #D291BC;
+  background-color: #CB7FB1;
+  width: 350px;
+  height: 180px;
+  z-index: -1;
+  flex-direction: column;
+}
+.story .card3 .para1 {
+  font-weight: 800;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.story .card3 p {
+  color: #F2E0EC;
+  font-weight: 400;
+  text-align: right;
+  font-size: 14px;
+}
+.story .card3 h2 {
+  margin-top: -8px;
+  font-family: "Rochester", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.story .card3 img {
+  position: absolute;
+  margin-top: 20x;
+  top: 0;
+  left: 450px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.story .card4 {
+  float: right;
+  padding-right: 50px;
+  padding: 30px 30px;
+  color: white;
+  text-align: left;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 1000px;
+  border: 2px dashed white;
+  outline: 10px #D291BC;
+  background-color: #CB7FB1;
+  width: 350px;
+  height: 180px;
+  z-index: -1;
+  flex-direction: column;
+}
+.story .card4 .para1 {
+  font-weight: 800;
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.story .card4 p {
+  color: #F2E0EC;
+  font-weight: 400;
+  text-align: left;
+  font-size: 14px;
+}
+.story .card4 h2 {
+  margin-top: -8px;
+  font-family: "Rochester", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.story .card4 img {
+  position: absolute;
+  margin-top: -10px;
+  top: 0;
+  right: 450px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.greeting {
+  position: relative;
+  background-color: #F1F3F4;
+  width: 100%;
+  height: 700px;
+  padding-top: 20px;
+  z-index: -1;
+  margin-top: 300px;
+}
+.greeting .name1 {
+  top: -500px;
+  left: 900px;
+  color: #D291BC;
+  margin-top: 130px;
+  letter-spacing: 2px;
+  margin-left: 600px;
+  text-align: center;
+  width: 110px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 900;
+  border: 1px dashed #D291BC;
+}
+.greeting h3 {
+  color: #D291BC;
+  margin-top: 10px;
+  margin-left: 450px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Rochester", cursive;
+  font-size: 80px;
+}
+.greeting .slide {
+  width: 100%;
+  height: 400px;
+  justify-content: space-evenly;
+  display: flex;
+  z-index: 1;
+}
+.greeting .slide .right_button {
+  margin-top: 100px;
+  height: 100px;
+}
+.greeting .slide .slider_frame_parent {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.greeting .slide .slider_frame_parent .slider_frame {
+  position: absolute;
+  width: auto;
+  display: flex;
+  transition: 0.5s linear;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px;
+  background-color: white;
+  width: 320px;
+  height: 200px;
+  z-index: 1;
+  padding: 20px 20px;
+  color: #9B9B9B;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box1 p {
+  font-size: 13.5px;
+  line-break: 15px;
+  padding-top: 10px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box1 .dove img {
+  background-color: #D8A1C5;
+  margin-bottom: -50px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  margin-top: -40px;
+  position: absolute;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box1 .pic {
+  text-align: right;
+  z-index: 2;
+  position: absolute;
+  width: 350px;
+  height: 70px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box1 .pic img {
+  margin-left: -345px;
+  z-index: 2;
+  border: 5px solid #F0D9E8;
+  margin-top: 50px;
+  width: 70px;
+  height: 70px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box1 .pic .scott {
+  color: black;
+  margin-top: 50px;
+  margin-right: 150px;
+  font-size: 18px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box1 .pic .manager {
+  color: #D69AC1;
+  margin-right: 105px;
+  font-size: 15px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box2 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px;
+  background-color: white;
+  width: 320px;
+  height: 200px;
+  z-index: 1;
+  padding: 20px 20px;
+  color: #9B9B9B;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box2 p {
+  font-size: 13.5px;
+  line-break: 15px;
+  padding-top: 10px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box2 .dove img {
+  margin-bottom: -50px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  margin-top: -40px;
+  position: absolute;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box2 .pic {
+  text-align: right;
+  z-index: 2;
+  position: absolute;
+  width: 350px;
+  height: 70px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box2 .pic img {
+  margin-left: -345px;
+  z-index: 2;
+  border: 5px solid #F0D9E8;
+  margin-top: 50px;
+  width: 70px;
+  height: 70px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box2 .pic .scott {
+  color: black;
+  margin-top: 50px;
+  margin-right: 150px;
+  font-size: 18px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box2 .pic .manager {
+  color: #D69AC1;
+  margin-right: 105px;
+  font-size: 15px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box3 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px;
+  background-color: white;
+  width: 320px;
+  height: 200px;
+  z-index: 1;
+  padding: 20px 20px;
+  color: #9B9B9B;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box3 p {
+  font-size: 13.5px;
+  line-break: 15px;
+  padding-top: 10px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box3 .dove img {
+  margin-bottom: -50px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  margin-top: -40px;
+  position: absolute;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box3 .pic {
+  text-align: right;
+  z-index: 2;
+  position: absolute;
+  width: 350px;
+  height: 70px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box3 .pic img {
+  margin-left: -345px;
+  z-index: 2;
+  border: 5px solid #F0D9E8;
+  margin-top: 50px;
+  width: 70px;
+  height: 70px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box3 .pic .scott {
+  color: black;
+  margin-top: 50px;
+  margin-right: 150px;
+  font-size: 18px;
+}
+.greeting .slide .slider_frame_parent .slider_frame .box3 .pic .manager {
+  color: #D69AC1;
+  margin-right: 105px;
+  font-size: 15px;
+}
+
+.bridemaid_groomsmen {
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+}
+.bridemaid_groomsmen .name1 {
+  top: -500px;
+  left: 800px;
+  color: #D291BC;
+  margin-top: 90px;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 550px;
+  text-align: center;
+  width: 260px;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 900;
+  border: 1px dashed #D291BC;
+}
+.bridemaid_groomsmen h3 {
+  margin-bottom: 50px;
+  color: #D291BC;
+  margin-top: 10px;
+  margin-left: 450px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Rochester", cursive;
+  font-size: 80px;
+}
+.bridemaid_groomsmen .slider {
+  width: 100%;
+  height: 400px;
+  justify-content: space-evenly;
+  display: flex;
+  z-index: 1;
+}
+.bridemaid_groomsmen .slider .right {
+  display: none;
+  margin-top: 100px;
+  height: 20px;
+}
+.bridemaid_groomsmen .slider .person_parent {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide {
+  position: absolute;
+  width: auto;
+  display: flex;
+  transition: 0.5s linear;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member1 {
+  width: 180px;
+  height: 300px;
+  margin: 30px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member1 img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  border: 10px solid #F0D9E8;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member1 .text1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 180px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member1 .text1 .nam {
+  margin-bottom: -9px;
+  margin-top: 40px;
+  width: 190px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-right: 500px;
+  color: black;
+  font-size: 25px;
+  font-family: "Rochester", cursive;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member1 .text1 p {
+  height: 50px;
+  font-weight: 400;
+  color: #9B9B9B;
+  margin-top: -5px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member2 {
+  width: 180px;
+  height: 300px;
+  margin: 30px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member2 img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  border: 10px solid #F0D9E8;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member2 .text1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 180px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member2 .text1 .nam {
+  margin-bottom: -9px;
+  margin-top: 40px;
+  width: 190px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-right: 900px;
+  color: black;
+  padding-left: -5px;
+  font-size: 25px;
+  font-family: "Rochester", cursive;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member2 .text1 p {
+  height: 50px;
+  font-weight: 400;
+  color: #9B9B9B;
+  margin-top: -5px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member3 {
+  width: 180px;
+  height: 300px;
+  margin: 30px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member3 img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  border: 10px solid #F0D9E8;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member3 .text1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 180px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member3 .text1 .nam {
+  margin-bottom: -9px;
+  margin-top: 40px;
+  width: 190px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-right: 900px;
+  color: black;
+  padding-left: -5px;
+  font-size: 25px;
+  font-family: "Rochester", cursive;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member3 .text1 p {
+  height: 50px;
+  font-weight: 400;
+  color: #9B9B9B;
+  margin-top: -5px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member4 {
+  width: 180px;
+  height: 300px;
+  margin: 30px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member4 img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  border: 10px solid #F0D9E8;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member4 .text1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 180px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member4 .text1 .nam {
+  margin-bottom: -9px;
+  margin-top: 40px;
+  width: 190px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-right: 900px;
+  color: black;
+  padding-left: -5px;
+  font-size: 22px;
+  font-family: "Rochester", cursive;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member4 .text1 p {
+  height: 50px;
+  font-weight: 400;
+  color: #9B9B9B;
+  margin-top: -5px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member5 {
+  width: 180px;
+  height: 300px;
+  margin: 30px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member5 img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  border: 10px solid #F0D9E8;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member5 .text1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  height: 180px;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member5 .text1 .nam {
+  margin-bottom: -9px;
+  margin-top: 40px;
+  width: 190px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-right: 900px;
+  color: black;
+  padding-left: -5px;
+  font-size: 25px;
+  font-family: "Rochester", cursive;
+}
+.bridemaid_groomsmen .slider .person_parent .persons_slide .member5 .text1 p {
+  height: 50px;
+  font-weight: 400;
+  color: #9B9B9B;
+  margin-top: -5px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.planning {
+  padding-top: 50px;
+  position: relative;
+  background-color: #F1F3F4;
+  margin-top: 400px;
+  width: 100%;
+  height: 850px;
+  z-index: -1;
+}
+.planning .name2 {
+  top: 500px;
+  left: 800px;
+  color: #D291BC;
+  margin-top: 90px;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 600px;
+  text-align: center;
+  width: 130px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 900;
+  border: 1px dashed #D291BC;
+}
+.planning .place {
+  color: #CB7FB1;
+  margin-top: 10px;
+  margin-left: 450px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Rochester", cursive;
+  font-size: 86px;
+}
+.planning .when_where {
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  top: 350px;
+  left: 600px;
+  position: absolute;
+  margin-left: -400px;
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  float: left;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.planning .when {
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+}
+.planning .when .fun {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 200px;
+  color: #525050;
+}
+.planning .when p {
+  color: #9B9B9B;
+  line-height: 30px;
+}
+.planning .when img {
+  border-radius: 50%;
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+.planning .when .num {
+  color: #D291BC;
+}
+.planning .when .map {
+  margin-left: 100px;
+  color: #D291BC;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #D291BC;
+}
+.planning .where {
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+}
+.planning .where .fun {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 200px;
+  color: #525050;
+}
+.planning .where p {
+  color: #9B9B9B;
+  line-height: 30px;
+}
+.planning .where img {
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+.planning .where .map {
+  margin-left: 100px;
+  color: #D291BC;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #D291BC;
+}
+
+.invitation {
+  position: relative;
+  margin-top: -90px;
+  width: 100%;
+  height: 800px;
+}
+.invitation .main_content::before {
+  content: "";
+  background-color: rgba(245, 234, 234, 0.416);
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: -2;
+}
+.invitation .name3 {
+  color: #D291BC;
+  margin-top: 100px;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 100px;
+  text-align: center;
+  width: 130px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 900;
+  border: 1px dashed #D291BC;
+}
+.invitation .place1 {
+  color: #CB7FB1;
+  margin-top: 10px;
+  margin-left: 100px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Rochester", cursive;
+  font-size: 70px;
+}
+.invitation form {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.invitation form .form_control {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  width: 500px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #D291BC;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.invitation form button {
+  border-radius: 5%;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #CB7FB1;
+  width: 160px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 5px;
+}
+
+.gallery {
+  margin-top: 180px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.gallery .name4 {
+  top: -500px;
+  left: 900px;
+  color: #D291BC;
+  margin-top: 90px;
+  letter-spacing: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 600px;
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 900;
+  border: 1px dashed #D291BC;
+}
+.gallery h3 {
+  color: #D291BC;
+  margin-top: 10px;
+  margin-left: 500px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Rochester", cursive;
+  font-size: 80px;
+}
+.gallery .box {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 100px;
+  display: flex;
+}
+.gallery .box .grid-container {
+  margin-top: -80px;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-rows: 350px 350px;
+  /* width:100%;
+  height: auto; */
+}
+.gallery .box .grid-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 350px;
+  height: 350px;
+}
+.gallery .box .grid-container :hover.item {
+  box-sizing: content-box;
+  content: "";
+  background-color: rgba(246, 42, 178, 0.5254901961);
+}
+
+.notes {
+  position: relative;
+  margin-top: 210px;
+  width: 100%;
+  height: 700px;
+}
+.notes .over {
+  background-color: #D8A1C5;
+  height: 200px;
+  margin-right: 50px;
+  justify-content: center;
+  text-align: left;
+  padding-top: 100px;
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.notes .over ul {
+  list-style: none;
+}
+.notes .over ul li {
+  font-size: 14px;
+}
+.notes .over ul li ::before {
+  color: white;
+  content: "✓";
+}
+.notes .over .two {
+  width: 300px;
+}
+.notes .over .two .navbar_logos {
+  margin-right: 50px;
+  padding: 20px 10px;
+  font-size: 40px;
+}
+.notes .over .two .navbar_logos .fa-square-facebook {
+  margin-right: 10px;
+}
+.notes .over .two .navbar_logos .fa-square-twitter {
+  border-radius: 50%;
+}
+.notes .over .links {
+  width: 250px;
+  line-height: 30px;
+}
+.notes .over .services {
+  width: 300px;
+  line-height: 30px;
+}
+.notes .over .question {
+  font-size: 15px;
+  width: 250px;
+}
+.notes .over .question p {
+  text-align: left;
+}
+
+@media (max-width: 1030px) {
+  .landingpage .content .bar {
+    background-color: #CB7FB1;
+  }
+  .landingpage .content .bar .rightside li {
+    display: none;
+  }
+  .landingpage .content .bar .menu {
+    color: #E9C0D1;
+    margin-top: 30px;
+    display: block;
+  }
+  .landingpage .content .container h1 {
+    font-size: 100px;
+  }
+  .landingpage .content .container p {
+    margin-left: 350px;
+  }
+  .about .bride_groom .name5 {
+    margin-left: 450px;
+  }
+  .about .bride_groom h2 {
+    margin-left: 100px;
+    font-size: 70px;
+  }
+  .about .bride_groom .groom {
+    height: 100px;
+    width: 80%;
+  }
+  .about .bride_groom .groom .text p {
+    padding: 10px;
+    margin-left: -200px;
+    font-weight: 300px;
+    width: 500px;
+    height: 150px;
+    font-size: 16px;
+  }
+  .about .bride_groom .groom .text h3 {
+    margin-right: 500px;
+    margin-top: 40px;
+    padding-right: 100px;
+    height: 80px;
+    width: 300px;
+    font-size: 40px;
+  }
+  .about .bride_groom .groom .text img {
+    margin-bottom: -200px;
+    margin-left: -100px;
+  }
+  .about .bride_groom .bride .image img {
+    margin-left: 30px;
+  }
+  .about .bride_groom .bride .text1 {
+    padding-top: 40px;
+    margin-right: 50px;
+  }
+  .about .bride_groom .bride .text1 img {
+    margin-left: 50px;
+  }
+  .about .bride_groom .bride .text1 p {
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 100px;
+    margin-left: -5px;
+  }
+  .story .description .name1 {
+    margin-left: 400px;
+  }
+  .story .description h3 {
+    margin-left: 250px;
+  }
+  .story .card1 {
+    margin-left: 90px;
+    width: 300px;
+    height: 200px;
+  }
+  .story .card1 img {
+    margin-left: -95px;
+  }
+  .story .card2 {
+    margin-left: 580px;
+    width: 300px;
+    height: 200px;
+  }
+  .story .card2 img {
+    margin-right: -80px;
+  }
+  .story .card3 {
+    margin-left: 90px;
+    width: 300px;
+    height: 200px;
+  }
+  .story .card3 img {
+    margin-left: -70px;
+  }
+  .story .card4 {
+    margin-left: 580px;
+    width: 300px;
+    height: 200px;
+  }
+  .story .card4 img {
+    margin-right: -80px;
+  }
+  .greeting .name1 {
+    margin-left: 450px;
+  }
+  .greeting h3 {
+    margin-left: 300px;
+  }
+  .bridemaid_groomsmen .name1 {
+    width: 240px;
+    margin-left: 400px;
+  }
+  .bridemaid_groomsmen h3 {
+    margin-left: 360px;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .planning .name2 {
+    margin-left: 450px;
+  }
+  .planning .place {
+    margin-left: 300px;
+  }
+  .planning .when_where {
+    margin-left: -600px;
+  }
+  .gallery .name4 {
+    margin-left: 440px;
+  }
+  .gallery .place2 {
+    margin-left: 300px;
+  }
+  .notes .over .two h3 {
+    margin-left: 20px;
+  }
+  .notes .over .two p {
+    margin-left: 20px;
+    width: 250px;
+    font-size: 15px;
+  }
+  .notes .over .two .navbar_logos {
+    margin-left: 10px;
+    width: 200px;
+    font-size: 30px;
+  }
+  .notes .over .question .text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 790px) {
+  .landingpage .content .bar {
+    background-color: #CB7FB1;
+  }
+  .landingpage .content .bar .leftside {
+    margin-left: -110px;
+  }
+  .landingpage .content .bar .rightside li {
+    display: none;
+  }
+  .landingpage .content .bar .menu {
+    color: #E9C0D1;
+    margin-top: 20px;
+    display: block;
+    margin-right: -100px;
+  }
+  .landingpage .content .container h1 {
+    font-size: 60px;
+  }
+  .landingpage .content .container p {
+    margin-left: 250px;
+  }
+  .landingpage .content .container img {
+    width: 150px;
+    height: 150px;
+  }
+  .landingpage .content .container .class .save {
+    padding-right: 20px;
+    margin-right: -80px;
+    height: 80px;
+  }
+  .landingpage .content .container .class {
+    margin-left: 100px;
+    margin-right: 10px;
+    width: 580px;
+    margin-top: 150px;
+    height: 80px;
+  }
+  .about .bride_groom .name5 {
+    margin-left: 280px;
+  }
+  .about .bride_groom h2 {
+    margin-left: 40px;
+    font-size: 70px;
+  }
+  .about .bride_groom .groom {
+    height: 100px;
+    width: 45%;
+  }
+  .about .bride_groom .groom .text p {
+    margin-top: 60px;
+    padding: 10px;
+    margin-left: -150px;
+    font-weight: 300px;
+    width: 250px;
+    height: 150px;
+    font-size: 16px;
+  }
+  .about .bride_groom .groom .text h3 {
+    margin-left: -100px;
+    margin-top: 40px;
+    padding-right: 10px;
+    height: 80px;
+    width: 200px;
+    font-size: 50px;
+  }
+  .about .bride_groom .groom .text img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -240px;
+    margin-left: -300px;
+  }
+  .about .bride_groom .bride .image img {
+    margin-left: 30px;
+  }
+  .about .bride_groom .bride .text1 {
+    padding-top: 40px;
+    margin-right: -50px;
+  }
+  .about .bride_groom .bride .text1 img {
+    margin-bottom: -30px;
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+  }
+  .about .bride_groom .bride .text1 p {
+    width: 220px;
+    height: 150px;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: 100px;
+    margin-left: -5px;
+  }
+  .story {
+    height: 1500px;
+  }
+  .story .description .name1 {
+    margin-left: 300px;
+  }
+  .story .description h3 {
+    margin-left: 200px;
+  }
+  .story .card1 {
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  .story .card1 p {
+    font-size: 18px;
+  }
+  .story .card1 img {
+    margin-left: -160px;
+  }
+  .story .card2 {
+    margin-top: 600px;
+    margin-left: 430px;
+    width: 250px;
+    height: 250px;
+  }
+  .story .card2 p {
+    font-size: 18px;
+  }
+  .story .card2 img {
+    margin-top: -100px;
+    margin-right: -150px;
+  }
+  .story .card3 {
+    margin-top: 900px;
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  .story .card3 p {
+    font-size: 15px;
+  }
+  .story .card3 img {
+    margin-top: -70px;
+    margin-left: -150px;
+  }
+  .story .card4 {
+    margin-top: 1200px;
+    margin-left: 430px;
+    width: 250px;
+    height: 230px;
+  }
+  .story .card4 p {
+    font-size: 15px;
+  }
+  .story .card4 img {
+    margin-top: -80px;
+    margin-right: -150px;
+  }
+  .greeting {
+    margin-top: -5px;
+  }
+  .greeting .name1 {
+    margin-left: 300px;
+  }
+  .greeting h3 {
+    margin-left: 180px;
+  }
+  .bridemaid_groomsmen .name1 {
+    width: 240px;
+    margin-left: 300px;
+  }
+  .bridemaid_groomsmen h3 {
+    margin-left: 260px;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .planning .name2 {
+    margin-left: 350px;
+  }
+  .planning .place {
+    font-size: 80px;
+    margin-left: 200px;
+  }
+  .planning .when_where {
+    margin-left: -700px;
+  }
+  .gallery .name4 {
+    margin-left: 340px;
+  }
+  .gallery {
+    margin-bottom: -280px;
+  }
+  .gallery .place2 {
+    margin-left: 200px;
+  }
+  .gallery .box {
+    width: 100%;
+    height: 200px;
+  }
+  .gallery .box .grid-container {
+    width: 100%;
+    height: 500px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+  }
+  .gallery .box .grid-container img {
+    width: 200px;
+    height: 200px;
+  }
+  .notes .over .two h3 {
+    margin-left: 20px;
+  }
+  .notes .over .two p {
+    margin-left: 20px;
+    width: 250px;
+    font-size: 15px;
+  }
+  .notes .over .two .navbar_logos {
+    margin-left: 10px;
+    width: 200px;
+    font-size: 30px;
+  }
+  .notes .over .question .text {
+    font-size: 10px;
+  }
+  .notes .over .question {
+    font-size: 10px;
+  }
+}
+@media (max-width: 620px) {
+  .landingpage .content .bar {
+    background-color: #CB7FB1;
+  }
+  .landingpage .content .bar .leftside {
+    margin-left: -110px;
+  }
+  .landingpage .content .bar .rightside li {
+    display: none;
+  }
+  .landingpage .content .bar .menu {
+    color: #E9C0D1;
+    margin-top: 20px;
+    display: block;
+    margin-right: -80px;
+  }
+  .landingpage .content .container h1 {
+    font-size: 50px;
+  }
+  .landingpage .content .container p {
+    font-size: 13px;
+    margin-left: 150px;
+  }
+  .landingpage .content .container img {
+    margin-top: -15px;
+    width: 130px;
+    height: 130px;
+  }
+  .landingpage .content .container .class .save {
+    font-size: 25px;
+    width: 100px;
+    padding-right: 5px;
+    margin-right: -80px;
+    height: 70px;
+  }
+  .landingpage .content .container .class {
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 450px;
+    margin-top: 150px;
+    height: 70px;
+  }
+  .landingpage .content .container .class li {
+    font-weight: 500;
+    text-align: center;
+    margin-right: -20px;
+    margin-top: -10px;
+    width: 50px;
+    height: 80px;
+    display: flex;
+    font-size: 15px;
+  }
+  .about .bride_groom .name5 {
+    margin-left: 180px;
+  }
+  .about .bride_groom h2 {
+    margin-left: 10px;
+    font-size: 60px;
+  }
+  .about .bride_groom .groom {
+    height: 100px;
+    width: 30%;
+  }
+  .about .bride_groom .groom .image img {
+    position: relative;
+    margin-left: 20px;
+    width: 550px;
+    height: 300px;
+  }
+  .about .bride_groom .groom .text {
+    flex-direction: row;
+    position: relative;
+  }
+  .about .bride_groom .groom .text p {
+    text-align: center;
+    position: absolute;
+    margin-top: 430px;
+    padding: 10px;
+    margin-left: -190px;
+    font-weight: 300px;
+    width: 550px;
+    height: 100px;
+    font-size: 14px;
+  }
+  .about .bride_groom .groom .text h3 {
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 350px;
+    padding-right: 10px;
+    height: 80px;
+    width: 400px;
+    font-size: 50px;
+  }
+  .about .bride_groom .groom .text img {
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    margin-bottom: -150px;
+    margin-left: -450px;
+  }
+  .about .bride_groom .bride .image img {
+    margin-top: 170px;
+    position: relative;
+    margin-left: 20px;
+    width: 550px;
+    height: 300px;
+  }
+  .about .bride_groom .bride .text1 {
+    padding-top: 40px;
+    margin-right: -50px;
+  }
+  .about .bride_groom .bride .text1 img {
+    margin-bottom: -450px;
+    margin-left: -200px;
+    width: 100px;
+    height: 100px;
+  }
+  .about .bride_groom .bride .text1 p {
+    text-align: center;
+    position: absolute;
+    margin-top: 70px;
+    padding: 10px;
+    margin-left: -380px;
+    font-weight: 300px;
+    width: 600px;
+    height: 100px;
+    font-size: 15px;
+  }
+  .about .bride_groom .bride .text1 h3 {
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -10px;
+    padding-right: 10px;
+    height: 80px;
+    width: 350px;
+    font-size: 50px;
+  }
+  .story {
+    margin-top: 900px;
+    height: 1500px;
+  }
+  .story .description .name1 {
+    margin-left: 200px;
+  }
+  .story .description h3 {
+    font-size: 60px;
+    margin-left: 120px;
+  }
+  .story .card1 {
+    text-align: left;
+    margin-left: 130px;
+    width: 400px;
+    height: 200px;
+  }
+  .story .card1 p {
+    text-align: left;
+    font-size: 18px;
+  }
+  .story .card1 img {
+    margin-left: -590px;
+  }
+  .story .card2 {
+    margin-top: 600px;
+    margin-left: 130px;
+    width: 400px;
+    height: 200px;
+  }
+  .story .card2 p {
+    font-size: 18px;
+  }
+  .story .card2 img {
+    margin-top: -40px;
+    margin-right: 30px;
+  }
+  .story .card3 {
+    text-align: left;
+    margin-left: 130px;
+    width: 400px;
+    height: 200px;
+  }
+  .story .card3 p {
+    text-align: left;
+    font-size: 18px;
+  }
+  .story .card3 img {
+    margin-top: -10px;
+    margin-left: -580px;
+  }
+  .story .card4 {
+    margin-top: 1200px;
+    margin-left: 130px;
+    width: 400px;
+    height: 200px;
+  }
+  .story .card4 p {
+    font-size: 18px;
+  }
+  .story .card4 img {
+    margin-top: -10px;
+    margin-right: 30px;
+  }
+  .greeting {
+    margin-top: -5px;
+  }
+  .greeting .name1 {
+    margin-left: 250px;
+  }
+  .greeting h3 {
+    margin-left: 100px;
+  }
+  .bridemaid_groomsmen .name1 {
+    width: 240px;
+    margin-left: 200px;
+  }
+  .bridemaid_groomsmen h3 {
+    margin-left: 150px;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .planning {
+    height: 1150px;
+  }
+  .planning .name2 {
+    margin-left: 250px;
+  }
+  .planning .place {
+    font-size: 80px;
+    margin-left: 100px;
+  }
+  .planning .when_where {
+    text-align: center;
+    margin-top: 180px;
+    flex-direction: column;
+    margin-left: -450px;
+  }
+  .planning .where {
+    padding-top: 10px;
+  }
+  .invitation {
+    margin-top: 100px;
+  }
+  .invitation .main_content {
+    margin-left: -80px;
+  }
+  .gallery .name4 {
+    margin-left: 240px;
+  }
+  .gallery {
+    margin-bottom: -280px;
+  }
+  .gallery .place2 {
+    margin-left: 100px;
+  }
+  .gallery .box {
+    width: 100%;
+  }
+  .gallery .box .grid-container {
+    width: 100%;
+    height: 500px;
+    grid-template-columns: 800px;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px 350px 350px;
+  }
+  .gallery .box .grid-container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 800px;
+    height: 350px;
+  }
+  .notes {
+    margin-top: 2600px;
+  }
+  .notes .over {
+    height: 900px;
+    flex-direction: column;
+  }
+  .notes .over .links {
+    margin-left: 20px;
+  }
+  .notes .over .services {
+    margin-left: 20px;
+  }
+  .notes .over .two h3 {
+    margin-left: 20px;
+  }
+  .notes .over .two p {
+    margin-left: 20px;
+    width: 250px;
+    font-size: 15px;
+  }
+  .notes .over .two .navbar_logos {
+    margin-left: 10px;
+    width: 200px;
+    font-size: 30px;
+  }
+  .notes .over .question {
+    margin-left: 20px;
+  }
+  .notes .over .question .text {
+    font-size: 15px;
+  }
+  .notes .over .question h3 {
+    font-size: 20px;
+  }
+  .notes .over .question p {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=mainpage.css.map */
