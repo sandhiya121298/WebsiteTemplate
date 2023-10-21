@@ -1,23 +1,3 @@
-// // function scrollValue() {
-// //   var navbar = document.getElementById('navbar');
-// //   var scroll = window.scrollY;
-// //   if (scroll < 300) {
-// //       navbar.classList.remove('');
-// //   } else {
-// //       navbar.classList.add('#F0D9E8');
-// //   }
-// // }
-
-// // window.addEventListener('scroll', scrollValue);
-
-// const menu=document.getElementsByClassName("menu")[0]
-// const  navlinks=document.getElementsByClassName("rightside")[0]
-// menu.addEventListener("click",()=>{
-//   navlinks.classList.toggle("active")
-// })
-
-
-
 
               /****greeting slide****/
 // var leftbtn = document.querySelector(".left_button");
@@ -65,7 +45,7 @@ function rightAction() {
 }
 setInterval(rightAction, 2000);
 
-
+/***scroll navbar****/
 window.addEventListener("scroll",()=>{
   var navbar=document.getElementById("navbar");
   var navbarContent=document.querySelectorAll(".top_navbar .bar .rightside li");
@@ -86,3 +66,4 @@ window.addEventListener("scroll",()=>{
     }
   }
 })
+
