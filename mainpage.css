@@ -1322,7 +1322,6 @@ img {
 @media (max-width: 1030px) {
   .top_navbar .bar {
     position: fixed;
-    background-color: #CB7FB1;
   }
   .top_navbar .bar .rightside {
     padding-bottom: 150px;
@@ -1330,12 +1329,17 @@ img {
     width: 100%;
   }
   .top_navbar .bar .leftside {
+    position: absolute;
+    z-index: -1;
+    margin-left: -800px;
     margin-top: -10px;
   }
   .top_navbar .bar .menu {
-    margin-left: 600px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 850px;
     color: #786C74;
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     cursor: pointer;
   }
@@ -1480,22 +1484,23 @@ img {
 }
 @media (max-width: 790px) {
   .top_navbar .bar {
-    width: 800px;
-    background-color: #CB7FB1;
-    position: relative;
+    position: fixed;
   }
   .top_navbar .bar .leftside {
-    margin-left: -600px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -500px;
   }
   .top_navbar .bar .rightside li {
     display: none;
   }
   .top_navbar .bar .menu {
     position: absolute;
+    z-index: 1;
     color: #786C74;
     margin-top: 20px;
     display: flex;
-    margin-right: 100px;
+    margin-right: 200px;
   }
   .landingpage .content .container h1 {
     margin-top: 400px;
@@ -1711,19 +1716,23 @@ img {
 }
 @media (max-width: 620px) {
   .top_navbar .bar {
-    background-color: #CB7FB1;
+    position: fixed;
   }
   .top_navbar .bar .leftside {
-    margin-right: -600px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -400px;
   }
   .top_navbar .bar .rightside li {
     display: none;
   }
-  .bar .menu {
+  .top_navbar .bar .menu {
+    position: absolute;
+    z-index: 1;
     color: #786C74;
+    display: flex;
     margin-top: 20px;
-    display: block;
-    margin-left: 500px;
+    margin-left: 600px;
   }
   .landingpage .content .container h1 {
     font-size: 50px;
@@ -2020,20 +2029,24 @@ img {
 }
 @media (max-width: 465px) {
   .top_navbar .bar {
-    position: relative;
+    position: fixed;
   }
   .top_navbar .bar .leftside {
+    position: absolute;
+    z-index: -1;
     margin-top: 2px;
-    margin-right: -300px;
+    margin-right: -100px;
   }
   .top_navbar .bar .rightside li {
     display: none;
   }
   .top_navbar .bar .menu {
-    color: #E9C0D1;
+    position: absolute;
+    z-index: 1;
+    color: #786C74;
     margin-top: 20px;
     display: flex;
-    margin-left: 200px;
+    margin-left: 500px;
   }
   .landingpage .content .container h1 {
     font-size: 40px;
